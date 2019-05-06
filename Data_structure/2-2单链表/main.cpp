@@ -37,7 +37,7 @@ int GetListSize(SListNode *pHead)       //获取链表长度
     return count;
 }
 
-void DeleteAllList(SListNode *&pHead)
+void DeleteAllList(SListNode *&pHead)       //清空链表
 {
     SListNode *list = pHead;
     while (list)
