@@ -15,6 +15,8 @@ typedef struct SListNode
     SListNode *next;
 }SListNode;
 
+
+
 SListNode *_BuyNode(DataType x)             //建立节点
 {
     SListNode *tmp = (SListNode *)malloc(sizeof(SListNode));
@@ -24,7 +26,7 @@ SListNode *_BuyNode(DataType x)             //建立节点
     return tmp;
 }
 
-int GetListSize(SListNode *pHead)       //获取链表长度
+int GetListSize(SListNode *pHead)           //获取链表长度
 {
     assert(pHead);
     SListNode *list = pHead;

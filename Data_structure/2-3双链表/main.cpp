@@ -6,10 +6,9 @@
 int main()
 {
     DLinkNode *L = NULL;
-    //memset(L,0, sizeof(DLinkNode));
-    ElemType a[]={8,43,4,35,3,74,9,777,11};
     int n = sizeof(a) / sizeof(ElemType);
 
-    CreateListR(L,a,n);
+    CreateListR(L,7);
+    PrintDList(L);
     return 0;
 }
